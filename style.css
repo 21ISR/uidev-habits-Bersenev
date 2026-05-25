@@ -1,11 +1,15 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 :root {
-  --color-bg: #f5f0eb;
+  --color-bg:
+    background: #4727ED;
+  background: linear-gradient(315deg, #4727ED, #795260);
   --color-surface: #ffffff;
   --color-accent: #d4622a;
   --color-text: #1a1a1a;
@@ -90,8 +94,7 @@ body {
   margin-bottom: 28px;
 }
 
-.tracker__list-section {
-}
+.tracker__list-section {}
 
 
 .form {
